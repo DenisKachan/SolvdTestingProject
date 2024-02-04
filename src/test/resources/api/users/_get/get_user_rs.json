@@ -1,0 +1,23 @@
+[{
+  "id": "type:Integer",
+  "name": "${user.name}",
+  "username": "${user.username}",
+  "email": "${user.email}",
+  "address": {
+    "street": "${address.street}",
+    "suite": "${address.suite}",
+    "city": "${address.city}",
+    "zipcode": "${address.zipcode}",
+    "geo": {
+      "lat": "${geo.lat}",
+      "lng": "${geo.lng}"
+    }
+  },
+  "phone": "${user.phone}",
+  "website": "${user.website}",
+  "company": {
+    "name": "${company.name}",
+    "catchPhrase": "${company.catchPhrase}",
+    "bs": "${company.bs}"
+  }
+} ]
