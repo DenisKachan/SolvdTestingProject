@@ -5,11 +5,11 @@ import com.solvd.testingProject.web.pages.Header;
 import com.solvd.testingProject.web.pages.LoginPage;
 import com.solvd.testingProject.web.service.HeaderService;
 import com.solvd.testingProject.web.service.LoginService;
-import com.zebrunner.carina.core.AbstractTest;
+import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class LoginLogoutTests extends AbstractTest {
+public class LoginLogoutTests implements IAbstractTest{
 
     private final LoginService loginService = new LoginService();
     private final HeaderService headerService = new HeaderService();
