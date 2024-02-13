@@ -1,6 +1,6 @@
 package com.solvd.testingProject.webTests;
 
-import com.solvd.testingProject.web.domain.Users;
+import com.solvd.testingProject.commonDomain.Users;
 import com.solvd.testingProject.web.pages.Header;
 import com.solvd.testingProject.web.pages.LoginPage;
 import com.solvd.testingProject.web.service.HeaderService;

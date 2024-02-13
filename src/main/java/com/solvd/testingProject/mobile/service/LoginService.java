@@ -1,19 +1,20 @@
-package com.solvd.testingProject.web.service;
+package com.solvd.testingProject.mobile.service;
 
 import com.solvd.testingProject.commonDomain.User;
 import com.solvd.testingProject.commonDomain.Users;
-import com.solvd.testingProject.web.pages.Header;
-import com.solvd.testingProject.web.pages.LoginPage;
+import com.solvd.testingProject.mobile.pages.HomePage;
+import com.solvd.testingProject.mobile.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 
-public class LoginService {
 
+public class LoginService {
     public User createUser(Users user) {
         return new User(user.getEmail(), user.getPassword(), user.getUserName());
     }
 
     public LoginPage typeEmailAndContinue(String email, WebDriver driver) {
         LoginPage loginPage = new LoginPage(driver);
+        loginPage.clickFirstSignInButton();
         loginPage.typeEmail(email);
         return loginPage.clickContinueButton();
     }
@@ -21,20 +22,16 @@ public class LoginService {
     public LoginPage typePasswordAndSignIn(String password, WebDriver driver) {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.typePassword(password);
-        return loginPage.clickSignInButton();
+        return loginPage.clickFinalSignInButton();
     }
 
-    public Header login(String email, String password, WebDriver driver) {
+    public HomePage login(String email, String password, WebDriver driver) {
         LoginPage loginPage = new LoginPage(driver);
+        loginPage.clickFirstSignInButton();
         loginPage.typeEmail(email);
         loginPage.clickContinueButton();
         loginPage.typePassword(password);
-        loginPage.clickSignInButton();
-        return new Header(driver);
-    }
-
-    public Header returnToTheMainPage(WebDriver driver) {
-        LoginPage loginPage = new LoginPage(driver);
-        return loginPage.clickWebSiteHeader();
+        loginPage.clickFinalSignInButton();
+        return new HomePage(driver);
     }
 }

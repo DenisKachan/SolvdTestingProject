@@ -1,4 +1,4 @@
-package com.solvd.testingProject.web.domain;
+package com.solvd.testingProject.commonDomain;
 
 import lombok.Getter;
 
