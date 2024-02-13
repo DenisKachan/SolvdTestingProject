@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ApiSuite" parallel="classes" thread-count="3">
+    <test name="Api testing">
+        <classes>
+            <class name="com.solvd.testingProject.apiTests.AlbumTests"/>
+            <class name="com.solvd.testingProject.apiTests.PostTests"/>
+            <class name="com.solvd.testingProject.apiTests.UserTests"/>
+        </classes>
+    </test>
+</suite>
