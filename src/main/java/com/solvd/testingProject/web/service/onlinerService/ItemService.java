@@ -14,7 +14,7 @@ public class ItemService {
         return itemPage.getColorOfTheAddToShoppingCartButton();
     }
 
-    public boolean isAddToShoppingCartButtonWiderThanBuyNowButton(WebDriver driver){
+    public boolean isAddToShoppingCartButtonSmallerThanBuyNowButton(WebDriver driver){
         ItemPage itemPage = new ItemPage(driver);
         return (itemPage.getWidthOfAddToShoppingCartButton()<itemPage.getWidthOfBuyNowButton());
     }

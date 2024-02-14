@@ -17,6 +17,6 @@ public class OnlinerTest implements IAbstractTest {
     public void verifyButtonWidthTest(){
         onlinerHeaderService.typeInAndFindAnItem("Ноутбуки", getDriver());
         Assert.assertTrue(itemService.areButtonsPresent(getDriver()));
-        Assert.assertTrue(itemService.isAddToShoppingCartButtonWiderThanBuyNowButton(getDriver()));
+        Assert.assertTrue(itemService.isAddToShoppingCartButtonSmallerThanBuyNowButton(getDriver()));
     }
 }
