@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WebSuite" parallel="methods" thread-count="5">
+    <test name="Web testing">
+        <classes>
+            <class name="com.solvd.testingProject.webTests.LoginLogoutTests"/>
+        </classes>
+    </test>
+</suite>

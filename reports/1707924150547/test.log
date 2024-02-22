@@ -1,0 +1,16 @@
+[2024-02-14 03:22:30] [1] [INFO] 
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wd/hub
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-14 03:22:30] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-14 03:22:32] [1] [INFO] [TestNG] Running:
+  /Users/solvd/Library/Caches/JetBrains/IdeaIC2023.2/temp-testng-customsuite.xml
+
+[2024-02-14 03:22:32] [1] [INFO] Set thread-count=1
+[2024-02-14 03:22:32] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-14 03:22:32] [1] [INFO] CARINA_CORE_VERSION: 1.2.6
+[2024-02-14 03:23:48] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-14 03:23:48] [1] [INFO] RESULT #1: TEST [SolvdTestingProject - verifyButtonWidthTest] FAIL [log=file:///Users/solvd/IdeaProjects/SolvdTestingProject/reports/1707924150547/3ba5fe79-643f-4d47-aad7-efbc930eb00e/test.log]

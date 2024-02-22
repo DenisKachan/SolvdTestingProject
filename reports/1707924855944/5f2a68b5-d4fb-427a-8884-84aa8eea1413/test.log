@@ -1,0 +1,14 @@
+[2024-02-14 03:34:18] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-14 03:34:18] [1] [INFO] TEST [SolvdTestingProject - verifyButtonWidthTest] STARTED at [18:34:18 2024-02-14]
+[2024-02-14 03:34:18] [1] [INFO] Starting driver session...
+[2024-02-14 03:34:23] [1] [INFO] Driver session started.
+[2024-02-14 03:34:55] [1] [INFO] Keys 'Ноутбуки' are sent to element 'searchInput'.
+[2024-02-14 03:35:09] [1] [INFO] returned first but found 10 elements by locator: By.xpath: //div[@class='result__item result__item_product']
+[2024-02-14 03:35:12] [1] [INFO] Element 'firstNeededItem' is clicked.
+[2024-02-14 03:37:07] [1] [INFO] returned first but found 6 elements by locator: By.xpath: //div/a[contains(text(),'Купить сейчас')]
+[2024-02-14 03:37:33] [1] [INFO] returned first but found 6 elements by locator: By.xpath: //div/a[contains(text(),'Купить сейчас')]
+[2024-02-14 03:37:35] [1] [INFO] returned first but found 6 elements by locator: By.xpath: //div/a[contains(text(),'В корзину')]
+[2024-02-14 03:37:37] [1] [INFO] returned first but found 6 elements by locator: By.xpath: //div/a[contains(text(),'В корзину')]
+[2024-02-14 03:37:38] [1] [INFO] returned first but found 6 elements by locator: By.xpath: //div/a[contains(text(),'В корзину')]
+[2024-02-14 03:37:38] [1] [INFO] returned first but found 6 elements by locator: By.xpath: //div/a[contains(text(),'Купить сейчас')]
+[2024-02-14 03:37:38] [1] [INFO] TEST [SolvdTestingProject - verifyButtonWidthTest] PASSED at [18:37:38 2024-02-14]
